@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    position: relative;
+}
+.left{
+    width: 20%;
+    height: 200px;
+    background-color: red;
+}
+.right{
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+
+    display: none;
+}
+.jihan{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    cursor: pointer;
+}
+.same{
+    padding: 10px;
+}
